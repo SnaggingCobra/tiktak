@@ -1,6 +1,7 @@
 const cells = document.querySelectorAll(".cell");
 const statusText = document.getElementById("status");
 
+
 let currentPlayer = "X";
 let gameActive = true;
 
@@ -70,6 +71,7 @@ function restartGame() {
 
     board = ["", "", "", "", "", "", "", "", ""];
 
+
     currentPlayer = "X";
     gameActive = true;
 
@@ -77,6 +79,7 @@ function restartGame() {
 
     cells.forEach(function(cell) {
         cell.innerText = "";
+
         cell.classList.remove("x", "o");
     });
 
