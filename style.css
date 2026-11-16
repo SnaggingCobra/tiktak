@@ -1,6 +1,6 @@
 body {
-    background: #111827;
-    color: white;
+    background: #ffffff;
+    color: #222222;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 
@@ -8,13 +8,12 @@ body {
 
 h1 {
     margin-top: 40px;
-    color: #22c55e;
 
 }
 
 h2 {
     margin: 25px;
-    color: #d1d5db;
+    color: #555555;
 
 }
 
@@ -29,9 +28,9 @@ h2 {
 }
 
 .cell {
-    background: #1f2937;
-    border: 2px solid #374151;
-    border-radius: 10px;
+    background: #fafafa;
+    border: 2px solid #666666;
+    border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,34 +41,32 @@ h2 {
 }
 
 .cell:hover {
-    background: #374151;
+    background: #f5f5f5;
 
 }
 
 .cell.x {
-    color: #22c55e;
+    color: #222222;
 
 }
 
 .cell.o {
-    color: #22c55e;
+    color: #666666;
 
 }
 
 button {
-    background: #22c55e;
+    background: #333333;
     color: white;
     border: none;
     padding: 12px 25px;
-    border-radius: 6px;
+    border-radius: 4px;
     font-size: 17px;
     cursor: pointer;
 
 }
 
 button:hover {
-    background: #16a34a;
+    background: #555555;
 
 }
-
-
